@@ -109,11 +109,6 @@ const ContactUs = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (state.name !== "" && state.message !== "" && state.email !== "") {
-      console.log(JSON.stringify(state));
-      console.log(process.env.REACT_APP_SHEET_ID);
-      console.log(process.env.REACT_APP_SPREADSHEET_ID);
-      console.log(process.env.REACT_APP_GOOGLE_CLIENT_EMAIL);
-      console.log(process.env.REACT_APP_GOOGLE_SERVICE_PRIVATE_KEY);
       // fetch("https://dscsastra.herokuapp.com/contact", {
       //   method: "POST",
       //   headers: {
