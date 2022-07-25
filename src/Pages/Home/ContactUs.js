@@ -1,5 +1,29 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { GoogleSpreadsheet } from "google-spreadsheet";
+
+const SPREADSHEET_ID = process.env.REACT_APP_SPREADSHEET_ID;
+const SHEET_ID = process.env.REACT_APP_SHEET_ID;
+const CLIENT_EMAIL = process.env.REACT_APP_GOOGLE_CLIENT_EMAIL;
+const PRIVATE_KEY = process.env.REACT_APP_GOOGLE_SERVICE_PRIVATE_KEY;
+
+const doc = new GoogleSpreadsheet(SPREADSHEET_ID);
+
+const appendSpreadsheet = async (row) => {
+  try {
+    await doc.useServiceAccountAuth({
+      client_email: CLIENT_EMAIL,
+      private_key: PRIVATE_KEY,
+    });
+    // loads document properties and worksheets
+    await doc.loadInfo();
+
+    const sheet = doc.sheetsById[SHEET_ID];
+    const result = await sheet.addRow(row);
+  } catch (e) {
+    console.error('Error: ', e);
+  }
+};
 
 const Card = styled.div`
   background-color: white;
@@ -85,14 +109,20 @@ const ContactUs = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (state.name !== "" && state.message !== "" && state.email !== "") {
-      fetch("https://dscsastra.herokuapp.com/contact", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(state),
-      });
+      console.log(JSON.stringify(state));
+      console.log(process.env.REACT_APP_SHEET_ID);
+      console.log(process.env.REACT_APP_SPREADSHEET_ID);
+      console.log(process.env.REACT_APP_GOOGLE_CLIENT_EMAIL);
+      console.log(process.env.REACT_APP_GOOGLE_SERVICE_PRIVATE_KEY);
+      // fetch("https://dscsastra.herokuapp.com/contact", {
+      //   method: "POST",
+      //   headers: {
+      //     Accept: "application/json",
+      //     "Content-Type": "application/json",
+      //   },
+      //   body: JSON.stringify(state),
+      // });
+      appendSpreadsheet(state);
       setState({
         email: "",
         name: "",

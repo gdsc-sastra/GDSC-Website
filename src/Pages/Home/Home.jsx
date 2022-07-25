@@ -204,11 +204,11 @@ const Home = () => {
         <Card>
           <Title width="250px">About Us</Title>
           <Paragraph>
-            Developer Student Clubs is a community where everyone is welcome. We
+            Google Developer Student Clubs is a community where everyone is welcome. We
             help students bridge the gap between theory and practice and grow
             their knowledge by providing a peer-to-peer learning environment, by
             conducting workshops, study jams and building solutions for local
-            businesses. Developer Student Clubs is a program supported by Google
+            businesses. <br/> Google Developer Student Clubs is a program supported by Google
             Developers.
           </Paragraph>
         </Card>
@@ -218,16 +218,16 @@ const Home = () => {
         <BG3 src={path3} width="100%" />
         <ContactUs />
 
-        <TwitterFeed>
+        {/* <TwitterFeed>
           <TwitterTimelineEmbed
             sourceType="profile"
-            screenName="dsc_sastra"
+            screenName="gdsc_sastra"
             options={{
               height: 520,
               width: 1000,
             }}
           />
-        </TwitterFeed>
+        </TwitterFeed> */}
       </TwitterAndContact>
     </>
   );

@@ -35,7 +35,7 @@ const Footer = () => {
           <SocialButtons>
             <Button
               onClick={() => {
-                window.open("https://twitter.com/dsc_sastra");
+                window.open("https://twitter.com/gdsc_sastra");
               }}
               color="#059ff5"
             >
@@ -43,7 +43,7 @@ const Footer = () => {
             </Button>
             <Button
               onClick={() => {
-                window.open("https://www.instagram.com/dsc.sastra.university/");
+                window.open("https://www.instagram.com/gdsc_sastra");
               }}
               color="#ca37ac"
             >
@@ -51,7 +51,7 @@ const Footer = () => {
             </Button>
             <Button
               onClick={() => {
-                window.open("https://www.linkedin.com/company/dsc-sastra");
+                window.open("https://www.linkedin.com/company/gdsc-sastra");
               }}
               color="#0073b0"
             >
@@ -62,7 +62,7 @@ const Footer = () => {
           <br />
         )}
         <h4 className="scalable-font">
-          DSC SASTRA - Powered By Google Developers
+          GDSC, SASTRA - Powered By Google Developers
         </h4>
         <p className="scalable-font">Sastra Deemed to be University,</p>
         <p className="scalable-font">Thanjavur, Tamil Nadu</p>

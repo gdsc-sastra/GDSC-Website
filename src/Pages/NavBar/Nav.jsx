@@ -48,7 +48,7 @@ const Nav = () => {
                 )}
               </Link>
             </Links>
-            <Links>
+            {/* <Links>
               <Link to="/teams">
                 {location.pathname == "/teams" ? (
                   <span className="underline">Teams</span>
@@ -56,8 +56,8 @@ const Nav = () => {
                   <span className="no-underline">Teams</span>
                 )}
               </Link>
-            </Links>
-            <Links>
+            </Links> */}
+            {/* <Links>
               <Link to="/events">
                 {location.pathname == "/events" ? (
                   <span className="underline">Events</span>
@@ -65,8 +65,8 @@ const Nav = () => {
                   <span className="no-underline">Events</span>
                 )}
               </Link>
-            </Links>
-            <Links>
+            </Links> */}
+            {/* <Links>
               <Link to="/resources">
                 {location.pathname == "/resources" ? (
                   <span className="underline">Resources</span>
@@ -74,7 +74,7 @@ const Nav = () => {
                   <span className="no-underline">Resources</span>
                 )}
               </Link>
-            </Links>
+            </Links> */}
             <Links>
               <Link to="/about">
                 {location.pathname == "/about" ? (
@@ -90,14 +90,14 @@ const Nav = () => {
                 <span className="no-underline">Contact</span>
               </HashedLink>
             </Links>
-            <Links>
+            {/* <Links>
               <a
                 href="https://medium.com/dsc-sastra-deemed-to-be-university"
                 target="_blank"
               >
                 <span className="no-underline external-link">Blog</span>
               </a>
-            </Links>
+            </Links> */}
           </LinkWrapper>
         )}
       </NavBar>

@@ -22,47 +22,47 @@ const Buttons = ({ type }) => {
     <div className="Contact-mediaButtons">
       <button
         onClick={() => {
-          window.open("https://www.instagram.com/dsc.sastra.university/");
+          window.open("https://www.instagram.com/gdsc_sastra");
         }}
       >
         <img src={insta} alt="instagram" width="40px" />
       </button>
       <button
         onClick={() => {
-          window.open("https://twitter.com/dsc_sastra");
+          window.open("https://twitter.com/gdsc_sastra");
         }}
       >
         <img src={twitter} alt="twitter" width="40px" />
-      </button>
+      {/* </button>
       <button
         onClick={() => {
           window.open("https://www.facebook.com/dscsastra");
         }}
       >
-        <img src={fb} alt="fb" width="40px" />
+        <img src={fb} alt="fb" width="40px" /> */}
       </button>
       <button
         onClick={() => {
-          window.open("https://www.linkedin.com/company/dsc-sastra");
+          window.open("https://www.linkedin.com/company/gdsc-sastra");
         }}
       >
         <img src={linkedin} alt="linkedIn" width="40px" />
       </button>
-      <button
+      {/* <button
         onClick={() => {
           window.open("https://medium.com/dsc-sastra-deemed-to-be-university");
         }}
       >
         <img src={med} alt="med" width="40px" />
-      </button>
+      </button> */}
       <button
         onClick={() => {
-          window.open("https://www.youtube.com/dscsastra");
+          window.open("https://www.youtube.com/channel/UCePpJcb3Ri68P-rvSPqvraA");
         }}
       >
         <img src={youTube} alt="you tube" width="40px" />
       </button>
-      <button
+      {/* <button
         onClick={() => {
           window.open(
             "https://play.google.com/store/apps/details?id=dsc.sastra.dsc_sastra_university"
@@ -70,7 +70,7 @@ const Buttons = ({ type }) => {
         }}
       >
         <img id="playStore" src={playStore} alt="playStore" width="20px" />
-      </button>
+      </button> */}
     </div>
   );
 };

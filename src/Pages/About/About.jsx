@@ -63,7 +63,7 @@ const About = () => {
     <div>
       <main className="about-jumbotron">
         <div className="quote-wrapper">
-          <h2>About Developer Student Clubs</h2>
+          <h2>About Google Developer Student Clubs</h2>
           <h3>
             We are inspired by the energy created when people come together
           </h3>
@@ -71,7 +71,7 @@ const About = () => {
       </main>
 
       <AboutUs id="about">
-        We are the team behind DSC SASTRA. We are a proud community of
+        We are the team behind GDSC, SASTRA. We are a proud community of
         passionate programmers who continuously strive to both improve ourselves
         and also help others in their programming endavours. We aim to foster an
         inclusive society wherein our beloved members have an opportunity to

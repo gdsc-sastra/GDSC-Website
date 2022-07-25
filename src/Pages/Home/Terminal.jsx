@@ -15,12 +15,12 @@ function Terminal() {
             <span className="terminal-yellow-btn"></span>
             <span className="terminal-green-btn"></span>
           </div>
-          <div className="terminal-header-title">dscsastra.project</div>
+          <div className="terminal-header-title">gdscsastra.project</div>
         </div>
         <div className="terminal-body">
           <div className="terminal-body-sidebar">
             <div className="terminal-sidebar-block">
-              <p className="text-bold">dscsastra.project</p>
+              <p className="text-bold">gdscsastra.project</p>
               <div className="terminal-sidebar-content">
                 <a href="#" onClick={() => setTab(0)}>
                   functions
@@ -33,16 +33,16 @@ function Terminal() {
             <div className="terminal-sidebar-block">
               <p className="text-bold">Teams</p>
               <div className="terminal-sidebar-content">
-                <Link to="/teams#Android">android</Link>
-                <Link to="/teams#Web">web</Link>
-                <Link to="/teams#Flutter">flutter</Link>
-                <Link to="/teams#Cloud">cloud</Link>
-                <Link to="/teams#Machine_learning">machine learning</Link>
-                <Link to="/teams#AR_/_VR">ar / vr</Link>
-                <Link to="/teams#Graphic_Designing">graphic designing</Link>
-                <Link to="/teams#Content_Writing">content writing</Link>
-                <Link to="/teams#Marketing">marketing</Link>
-                <Link to="/teams#Event_Coverage">event coverage</Link>
+                <Link to="/">android</Link>
+                <Link to="/">web</Link>
+                <Link to="/">flutter</Link>
+                <Link to="/">cloud</Link>
+                <Link to="/">machine learning</Link>
+                <Link to="/">ar / vr</Link>
+                <Link to="/">design</Link>
+                <Link to="/">content writing</Link>
+                {/* <Link to="/">marketing</Link>
+                <Link to="/">event coverage</Link> */}
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ function Terminal() {
                 key={"rtuyijgug"}
               >
                 <div className="pl-1">
-                  class <span className="terminal-blue-text">DSC</span> {"{"}
+                  class <span className="terminal-blue-text">GDSC</span> extends <span className="terminal-blue-text"> SASTRA </span> {"{"}
                 </div>
                 <div className="pl-2"> public: </div>
                 <div className="pl-3">
@@ -68,7 +68,7 @@ function Terminal() {
                 <div className="pl-4">
                   printf(
                   <span className="terminal-green-text">
-                    "We are Team DSC SASTRA"
+                    "We are Team GDSC, SASTRA"
                   </span>
                   );
                 </div>
@@ -82,7 +82,7 @@ function Terminal() {
                 key={"asddasafsd"}
               >
                 <div className="pl-1">
-                  class <span className="terminal-blue-text">DSC</span> {"{"}
+                  class <span className="terminal-blue-text">GDSC</span> {"{"}
                 </div>
                 <div className="pl-2"> public: </div>
                 <div className="pl-3">
