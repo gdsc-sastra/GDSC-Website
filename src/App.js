@@ -5,7 +5,7 @@ import loader from "./loader.gif";
 import "./Main.css";
 import Footer from "./Pages/Footer/Footer";
 
-//const Teams = lazy(() => import("./Pages/Team/Team"));
+const Teams = lazy(() => import("./Pages/Team/Team"));
 const Home = lazy(() => import("./Pages/Home/Home"));
 //const EventMain = lazy(() => import("./Pages/Events"));
 const About = lazy(() => import("./Pages/About/About"));
@@ -27,7 +27,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           {/* <Route exact path="/events" component={EventMain} /> */}
-          {/* <Route exact path="/teams" component={Teams} /> */}
+          <Route exact path="/teams" component={Teams} />
           <Route exact path="/about" component={About} />
           {/* <Route exact path="/resources" component={Resources} /> */}
         </Switch>

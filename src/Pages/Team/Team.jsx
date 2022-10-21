@@ -6,6 +6,7 @@ import Cluster from "./Cluster";
 import arrow from "../Logos/down-arrow.svg";
 import loader from "../../loader.gif";
 import styled from "styled-components";
+import data2022 from './Cluster_2022.json'
 
 function getRandomNumber() {
   return parseInt(1 + Math.random() * 99);
@@ -29,14 +30,16 @@ const Teams = () => {
   const [data, setData] = useState(null);
   const [allData, setAllData] = useState(null);
   const [batchSelected, setBatchSelected] = useState("current");
+  // const [newData2022,setNewData2022] = useState(data2022);
   useEffect(() => {
-    fetch("https://dscsastraapi.herokuapp.com/MembersbyCluster")
-      .then((res) => res.json())
-      .then((jsonData) => {
-        console.log(jsonData[0]);
+    // fetch("https://dscsastraapi.herokuapp.com/MembersbyCluster")
+      // .then((res) => res.json())
+      // .then((jsonData) => {
+        // console.log(jsonData[0]);
+        data2022.map((newdata)=>{
         let batchData = { current: {}, previous: {} };
-        for (let cluster in jsonData[0]) {
-          let currentCluster = jsonData[0][cluster];
+        for (let cluster in newdata[0]) {
+          let currentCluster = newdata[0][cluster];
           if (cluster == "lead") {
             let batchAssign =
               parseInt(currentCluster.batch) - CURRENT_YEAR >= 0
@@ -44,15 +47,15 @@ const Teams = () => {
                 : "previous";
             batchData[batchAssign][cluster] = currentCluster;
             //Delete this
-            batchData["previous"][cluster] = {
-              batch: 2019,
-              github: "https://github.com/kavinraju",
-              imgUrl: "https://i.postimg.cc/yNYKtWvw/Kavin-Raju.jpg",
-              linkedin: "https://www.linkedin.com/in/kavinraju/",
-              name: "XYZ",
-              role: "DSC Lead, App Developer",
-              twitter: "https://twitter.com/kavinRajuS",
-            };
+            // batchData["previous"][cluster] = {
+            //   batch: 2019,
+            //   github: "https://github.com/kavinraju",
+            //   imgUrl: "https://i.postimg.cc/yNYKtWvw/Kavin-Raju.jpg",
+            //   linkedin: "https://www.linkedin.com/in/kavinraju/",
+            //   name: "XYZ",
+            //   role: "DSC Lead, App Developer",
+            //   twitter: "https://twitter.com/kavinRajuS",
+            // };
           }
           if (Array.isArray(currentCluster)) {
             batchData["previous"][cluster] = [];
@@ -71,9 +74,10 @@ const Teams = () => {
             // });
           }
         }
-        setData(batchData[batchSelected]);
+        setData(newdata);
         setAllData(batchData);
-      });
+      // });
+    })
   }, []);
 
   useEffect(() => {
@@ -113,15 +117,15 @@ const Teams = () => {
           <div className="batch-button">
             {batchSelected == "current" ? (
               <>
-                <BatchSwitch
+                {/* <BatchSwitch
                   onClick={() => setBatchSelected("current")}
                   selected
                 >
                   Current Batch
-                </BatchSwitch>
-                <BatchSwitch onClick={() => setBatchSelected("previous")}>
+                </BatchSwitch> */}
+                {/* <BatchSwitch onClick={() => setBatchSelected("previous")}>
                   Previous Batch
-                </BatchSwitch>
+                </BatchSwitch> */}
               </>
             ) : (
               <>
@@ -163,62 +167,62 @@ const Teams = () => {
               data={data.ml}
             />
 
-            <Cluster
+            {/* <Cluster
               name="AR / VR"
               img="vr-glasses.svg"
               right={false}
               color="red"
               id={3}
               data={data.arvr}
-            />
+            /> */}
             <Cluster
-              name="Flutter"
+              name="Flutter development"
               img="flutterio-icon.svg"
-              color="blue"
-              right={true}
-              id={4}
+              color="red"
+              right={false}
+              id={3}
               data={data.flutter}
             />
             <Cluster
               name="Cloud"
               img="setting.svg"
-              right={false}
-              color="yellow"
+              right={true}
+              color="green"
               id={5}
               data={data.cloud}
             />
             <Cluster
-              name="Graphic Designing"
+              name="Digital creations"
               img="tools.svg"
-              color="green"
-              right={true}
+              color="blue"
+              right={false}
               id={6}
-              data={data.graphic}
+              data={data.digital}
             />
             <Cluster
-              name="Content Writing"
+              name="Content writing"
               img="report.svg"
-              right={false}
-              color="blue"
+              right={true}
+              color="yellow"
               id={7}
               data={data.content}
             />
             <Cluster
-              name="Marketing"
+              name="Promotions and marketing"
               img="setting.svg"
               color="red"
-              right={true}
+              right={false}
               id={8}
               data={data.marketing}
             />
-            <Cluster
+            {/* <Cluster
               name="Event Coverage"
               img="camera.jpg"
-              right={false}
+              right={true}
               color="yellow"
               id={9}
               data={data.eventcoverage}
-            />
+            /> */}
           </section>
         </main>
       </div>

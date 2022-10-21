@@ -1,0 +1,183 @@
+[
+  {
+    "lead": {
+      "batch": 2024,
+      "linkedin": "",
+      "github": "",
+      "twitter": "",
+      "_id": "1",
+      "role": "GDSC Lead, Web Developer",
+      "name": "Kannan G R",
+      "imgUrl": "https://i.postimg.cc/yNYKtWvw/Kavin-Raju.jpg"
+    },
+    "app": [
+      {
+        "batch": 2024,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "2",
+        "name": "Shujay EsvaraMurthy",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1aKvcW4TzLUHlKSWUvdxWpDO0ZADc9hSy"
+      },
+      {
+        "batch": 2025,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "3",
+        "name": "Jai Surya",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1RU-Z0IprXkzEJPtI8WfUYfgzoxfAg4qt"
+      }
+    ],
+    "flutter": [
+      {
+        "batch": 2021,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "4",
+        "name": "Thrivikram G R",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1oyDJQ_PROUP7YoqDxHjqM7wMH742eia7"
+      }
+    ],
+    "web": [
+      {
+        "batch": 2025,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "5",
+        "name": "Gowthaman U",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1K-Rh3-sDVubCSwpH2Ptx2Twqqufo21Xs"
+      },
+      {
+        "batch": 2025,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "6",
+        "name": "Arman Aurobindo",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1OR8C3VPDsUVRWSmF9CSPx9YYU1v7J8wg"
+      },
+      {
+        "batch": 2024,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "7",
+        "name": "Kowsik S",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=19SFOt4WOKgHV19_VAkCUJnYa5FpFPIcW"
+      }
+    ],
+    "ml": [
+      {
+        "batch": 2025,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "8",
+        "name": "Karthik Mohan",
+        "imgUrl": "https://i.postimg.cc/sgxtgZ5w/profile-pic.jpg"
+      }
+    ],
+    "cloud": [
+      {
+        "batch": 2024,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "9",
+        "name": "Raghavendiran N",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=13S7XcAFhFxfZMxLilChscVk9jtOcTGzQ"
+      }
+    ],
+    "digital": [
+      {
+        "batch": 2024,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "10",
+        "name": "Jitesh KS",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1eK0tnc_O9q6dJaqrhSyMAn6tz4-d3xTu"
+      },
+      {
+        "batch": 2024,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "11",
+        "name": "Vengada Sabareesan",
+        "imgUrl": "https://i.postimg.cc/9XnLhMYM/IMG-20200110-193310.jpg"
+      },
+      {
+        "batch": 2025,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "12",
+        "name": "Sudarsan P",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=197MedGlBfQ_s4RW3y-8Yu83u5uTIpH26"
+      },
+      {
+        "batch": 2025,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "13",
+        "name": "Naga Sudharshan K",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1vPuBhiimQE8XV4I9cbuBdUA5RwwFJFYd"
+      }
+    ],
+    "content": [
+      {
+        "batch": 2024,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "14",
+        "name": "Mohamed Jibran",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1_vrG-IyIy3_9d2ZRMx2LNP5MKQbPfgU-"
+      },
+      {
+        "batch": 2025,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "15",
+        "name": "Apurv Kumar Jha",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1Byf90TWzzvYTGcmGB9i5j7U1HuEalM3J"
+      },
+      {
+        "batch": 2025,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "16",
+        "name": "Punitha Chockalingam",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1EXz_ipGLHX2aRvD113Of836I3_eFDar7"
+      }
+    ],
+    "marketing": [
+      {
+        "batch": 2024,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "17",
+        "name": "Harini Gopal",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1zSYsljRwUbz-caDPAbF1eBkwDmOQjv33"
+      },
+      {
+        "batch": 2025,
+        "linkedin": "",
+        "github": "",
+        "twitter": "",
+        "_id": "18",
+        "name": "Harini Kesavarapu",
+        "imgUrl": "https://drive.google.com/uc?export=view&id=1WmMFjhMj6tU93BdfEwu1EJHzXSLjU8Za"
+      }
+    ]
+  }
+]

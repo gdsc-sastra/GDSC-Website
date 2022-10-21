@@ -33,14 +33,14 @@ function Terminal() {
             <div className="terminal-sidebar-block">
               <p className="text-bold">Teams</p>
               <div className="terminal-sidebar-content">
-                <Link to="/">android</Link>
-                <Link to="/">web</Link>
-                <Link to="/">flutter</Link>
-                <Link to="/">cloud</Link>
-                <Link to="/">machine learning</Link>
-                <Link to="/">ar / vr</Link>
-                <Link to="/">design</Link>
-                <Link to="/">content writing</Link>
+                <Link to="/teams">android</Link>
+                <Link to="/teams">web</Link>
+                <Link to="/teams">flutter</Link>
+                <Link to="/teams">cloud</Link>
+                <Link to="/teams">machine learning</Link>
+                {/* <Link to="/">ar / vr</Link> */}
+                <Link to="/teams">digital creations</Link>
+                <Link to="/teams">content writing</Link>
                 {/* <Link to="/">marketing</Link>
                 <Link to="/">event coverage</Link> */}
               </div>

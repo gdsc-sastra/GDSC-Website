@@ -10,6 +10,8 @@
     "google-spreadsheet": "^3.3.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-lazy-load-image-component": "^1.5.5",
+    "react-preload-image": "^1.0.7",
     "react-router-dom": "^5.1.2",
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "3.4.0",
