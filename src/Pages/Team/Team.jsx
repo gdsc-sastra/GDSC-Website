@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import bg1 from "../../Backgrounds/BG_1.png";
 import bg2 from "../../Backgrounds/BG_2.png";
-import Cluster from "./Cluster";
+import Cluster from "./Cluster.jsx";
 import arrow from "../Logos/down-arrow.svg";
 import loader from "../../loader.gif";
 import styled from "styled-components";
 import data2022 from './Cluster_2022.json'
+import axios from "axios";
 
 function getRandomNumber() {
   return parseInt(1 + Math.random() * 99);
@@ -31,14 +32,22 @@ const Teams = () => {
   const [allData, setAllData] = useState(null);
   const [batchSelected, setBatchSelected] = useState("current");
   // const [newData2022,setNewData2022] = useState(data2022);
+  
+  // const url = "http://13.115.182.165:8000/get-members";
+  
   useEffect(() => {
-    // fetch("https://dscsastraapi.herokuapp.com/MembersbyCluster")
-      // .then((res) => res.json())
-      // .then((jsonData) => {
-        // console.log(jsonData[0]);
-        data2022.map((newdata)=>{
-        let batchData = { current: {}, previous: {} };
-        for (let cluster in newdata[0]) {
+    // fetch("https://dscsastraapi.herokuapp.com/MembersbyCluster)
+    //   .then((res) => res.json())
+    //   .then((newdata) => {
+      //     console.log(newdata);
+      // console.log(jsonData[0]);
+      
+      data2022.map((newdata)=>{
+        // axios.get(url)
+        // .then(function (newdata) {
+        //   console.log(newdata);
+          let batchData = { current: {}, previous: {} };
+          for (let cluster in newdata[0]) {
           let currentCluster = newdata[0][cluster];
           if (cluster == "lead") {
             let batchAssign =
@@ -75,6 +84,7 @@ const Teams = () => {
           }
         }
         setData(newdata);
+        console.log(data);
         setAllData(batchData);
       // });
     })
