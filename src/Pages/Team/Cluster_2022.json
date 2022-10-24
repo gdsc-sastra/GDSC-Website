@@ -2,77 +2,71 @@
   {
     "lead": {
       "batch": 2024,
-      "linkedin": "",
-      "github": "",
+      "linkedin": "https://linkedin.com/in/kannangr21",
+      "github": "https://github.com/kannangr21",
       "twitter": "",
       "_id": "1",
       "role": "GDSC Lead, Web Developer",
       "name": "Kannan G R",
-      "imgUrl": "https://i.postimg.cc/yNYKtWvw/Kavin-Raju.jpg"
+      "imgUrl": "./Teamimgs/Kannan.jpeg"
     },
-    "app": [
+    "android": [
       {
         "batch": 2024,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "http://www.linkedin.com/in/shujay10",
+        "github": "https://github.com/Shujay10",
         "twitter": "",
         "_id": "2",
         "name": "Shujay EsvaraMurthy",
-        "imgUrl1": "https://i.postimg.cc/4yJr0c1v/Shujay-Shujay-Esvara-Murthy.jpg",
         "imgUrl": "./Teamimgs/Shujay.jpg"
       },
       {
         "batch": 2025,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "https://www.linkedin.com/in/jai-surya-3898a0176",
+        "github": "https://github.com/me-jaii",
         "twitter": "",
         "_id": "3",
         "name": "Jai Surya",
-        "imgUrl1": "https://i.postimg.cc/66kZChYG/Jai-Surya-jai-surya.jpg",
         "imgUrl": "./Teamimgs/Jai.JPG"
       }
     ],
     "flutter": [
       {
         "batch": 2021,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "http://www.linkedin.com/in/thrivikramgr",
+        "github": "https://github.com/ThrivikramGR",
         "twitter": "",
         "_id": "4",
         "name": "Thrivikram G R",
-        "imgUrl1": "https://i.postimg.cc/904PDhwK/D0-DCCE70-C702-4423-9-F18-18-D2-E5-F1293-C-Thrivikram-G-R.jpg",
         "imgUrl": "./Teamimgs/Thrivikram.jpeg"
       }
     ],
     "web": [
       {
         "batch": 2025,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "https://www.linkedin.com/in/gowthaman-u-a5aa31224",
+        "github": "https://github.com/notGman",
         "twitter": "",
         "_id": "5",
         "name": "Gowthaman U",
-        "imgUrl1": "https://i.postimg.cc/sXG9Xzh8/Gowthaman-Gowthaman-U.jpg",
         "imgUrl": "./Teamimgs/Gowthaman.jpg"
       },
       {
         "batch": 2025,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "https://www.linkedin.com/in/arman-aurobindo/",
+        "github": "https://github.com/armanthepythonguy",
         "twitter": "",
         "_id": "6",
         "name": "Arman Aurobindo",
-        "imgUrl1": "https://i.postimg.cc/VvH7hgXQ/Arman-Aurobindo-Stock-action.jpg",
         "imgUrl": "./Teamimgs/Arman.jpeg"
       },
       {
         "batch": 2024,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "https://www.linkedin.com/in/kowsik-s-09424a1b3",
+        "github": "https://github.com/Kowsik2003",
         "twitter": "",
         "_id": "7",
         "name": "Kowsik S",
-        "imgUrl1": "https://i.postimg.cc/3RyNQJvy/IMG-20220904-133306-Kowsik-S.png",
         "imgUrl": "./Teamimgs/Kowsik.png"
       }
     ],
@@ -80,35 +74,32 @@
       {
         "batch": 2025,
         "linkedin": "",
-        "github": "",
+        "github": "https://github.com/karthiknm",
         "twitter": "",
         "_id": "8",
         "name": "Karthik Mohan",
-        "imgUrl1": "https://i.postimg.cc/sgxtgZ5w/profile-pic.jpg",
-        "imgUrl": "./Teamimgs/Shujay.jpg"
+        "imgUrl": "./Teamimgs/Karthik.png"
       }
     ],
     "cloud": [
       {
         "batch": 2024,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "http://www.linkedin.com/in/raghavendiran-n",
+        "github": "https://github.com/Raghavendiran-2002",
         "twitter": "",
         "_id": "9",
         "name": "Raghavendiran N",
-        "imgUrl1": "https://i.postimg.cc/KjDmkF0f/Raghavendiran-Raghavendiran-N.png",
         "imgUrl": "./Teamimgs/Raghavendiran.png"
       }
     ],
     "digital": [
       {
         "batch": 2024,
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/jitesh-k-s-2078341a0/",
         "github": "",
         "twitter": "",
         "_id": "10",
         "name": "Jitesh KS",
-        "imgUrl1": "https://i.postimg.cc/LXZXscdQ/Jitesh-Jitesh-KS.jpg",
         "imgUrl": "./Teamimgs/Jitesh.jpg"
       },
       {
@@ -118,34 +109,31 @@
         "twitter": "",
         "_id": "11",
         "name": "Vengada Sabareesan",
-        "imgUrl1": "https://i.postimg.cc/9XnLhMYM/IMG-20200110-193310.jpg",
-        "imgUrl": "./Teamimgs/Shujay.jpg"
+        "imgUrl": "./Teamimgs/Sabareesh.jpg"
       },
       {
         "batch": 2025,
-        "linkedin": "",
+        "linkedin": "https://bit.ly/SudarsanLinkedIn",
         "github": "",
         "twitter": "",
         "_id": "12",
         "name": "Sudarsan P",
-        "imgUrl1": "https://i.postimg.cc/g0HsTTt5/Sudarsan-Sudarsan-P.jpg",
         "imgUrl": "./Teamimgs/Sudarsan.jpg"
       },
       {
         "batch": 2025,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "https://www.linkedin.com/in/naga-sudharshan-k-93b005219/",
+        "github": "https://github.com/NagaSudharshan-K",
         "twitter": "",
         "_id": "13",
         "name": "Naga Sudharshan K",
-        "imgUrl1": "https://i.postimg.cc/zvSzSLhg/9-F6-CADAF-EFF0-45-BD-8-A4-A-0-D8-B830-A4-BB1-Sudharshan.jpg",
         "imgUrl": "./Teamimgs/NSudharshan.jpeg"
       }
     ],
     "content": [
       {
         "batch": 2024,
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/mohamed-jibran-b2b635213",
         "github": "",
         "twitter": "",
         "_id": "14",
@@ -155,34 +143,31 @@
       },
       {
         "batch": 2025,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "https://www.linkedin.com/in/apurv-kumar-jha-10390b22a",
+        "github": "https://github.com/apurvjha02",
         "twitter": "",
         "_id": "15",
         "name": "Apurv Kumar Jha",
-        "imgUrl1": "https://i.postimg.cc/vB8gHqYp/IMG-20220907-230554-Apurv-Kumar-Jha-1.jpg",
         "imgUrl": "./Teamimgs/Apurv.jpg"
       },
       {
         "batch": 2025,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "https://www.linkedin.com/in/punithachockalingam",
+        "github": "https://github.com/punithachockalingam",
         "twitter": "",
         "_id": "16",
         "name": "Punitha Chockalingam",
-        "imgUrl1": "https://i.postimg.cc/R0XbfvqZ/IMG-20220831-103606-Punitha-Chockalingam.jpg",
         "imgUrl": "./Teamimgs/Punitha.jpg"
       }
     ],
     "marketing": [
       {
         "batch": 2024,
-        "linkedin": "",
-        "github": "",
+        "linkedin": "https://www.linkedin.com/in/harini-gopal-14a71b200/",
+        "github": "https://github.com/HariniGopal27",
         "twitter": "",
         "_id": "17",
         "name": "Harini Gopal",
-        "imgUrl1": "https://i.postimg.cc/zXHLBRNX/IMG-20220414-WA0027.jpg",
         "imgUrl": "./Teamimgs/HariniG.jpg"
       },
       {
@@ -192,7 +177,6 @@
         "twitter": "",
         "_id": "18",
         "name": "Harini Kesavarapu",
-        "imgUrl1": "https://i.postimg.cc/0Nk2pzTS/IMG-20220502-WA0048-Harini-Kesavarapu.jpg",
         "imgUrl": "./Teamimgs/HariniK.jpg"
       }
     ]

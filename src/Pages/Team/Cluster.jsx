@@ -45,20 +45,34 @@ const Cluster = (props) => {
       <img
         className="person-image"
         src={
-        require(`${person.imgUrl}`)
-        // === ""
-        //   ? `https://randomuser.me/api/portraits/men/${getRandomNumber()}.jpg`
-        //   : person.imgUrl
+          require(`${person.imgUrl}`)
+          // === ""
+          //   ? `https://randomuser.me/api/portraits/men/${getRandomNumber()}.jpg`
+          //   : person.imgUrl
         }
       />
       <p>{person.name}</p>
       <div className="social">
-        <a href={person.github} target="_blank">
-          <img src={git} />
-        </a>
-        <a href={person.linkedin} target="_blank">
-          <img src={linkedin} />
-        </a>
+        <div>
+          {person.github === "" ? (
+            <a href={person.github} target="_blank" style={{ display: "none" }}>
+              <img src={git} />
+            </a>
+          ) : (
+            <a href={person.github} target="_blank">
+              <img src={git} />
+            </a>
+          )}
+          {person.linkedin === "" ? (
+            <a href={person.linkedin} target="_blank" style={{ display: "none" }}>
+              <img src={linkedin} />
+            </a>
+          ) : (
+            <a href={person.linkedin} target="_blank">
+              <img src={linkedin} />
+            </a>
+          )}
+        </div>
       </div>
     </div>
   ));

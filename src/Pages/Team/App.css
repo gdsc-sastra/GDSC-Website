@@ -22,7 +22,7 @@ nav {
 
 .jumbotron {
   position: relative;
-  background-image: url("../../Backgrounds/team-bg.jpg");
+  /* background-image: url("../../Backgrounds/team-bg.jpg"); */
   height: 95vh;
   background-size: cover;
   background-position: center;
@@ -50,7 +50,7 @@ nav {
 .quote-wrapper > h2 {
   text-align: center;
   width: 100%;
-  color: white;
+  color: black;
   font-weight: bold;
 }
 .quote-wrapper h1 {
@@ -69,6 +69,7 @@ nav {
 
 .scroller img {
   width: 50px;
+  filter: invert(1);
   animation: hover 1.5s infinite;
 }
 .lead {

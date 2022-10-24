@@ -110,7 +110,7 @@ const Teams = () => {
         <main className="jumbotron">
           <div className="quote-wrapper">
             <h1>Alone we do so little. Together we can change the world</h1>
-            <h2>We are team DSC SASTRA </h2>
+            <h2>We are team GDSC SASTRA </h2>
           </div>
           <a href="#main-team" className="scroller">
             <img src={arrow} />
@@ -119,7 +119,7 @@ const Teams = () => {
         <main id="main-team">
           <section className="lead">
             <div>
-              <img src={data.lead.imgUrl} style={{ width: "150px" }} />
+              <img src={require(`${data.lead.imgUrl}`)} style={{ width: "170px" }} />
               <h3>{data.lead.name}</h3>
               <p>{data.lead.role}</p>
             </div>
@@ -158,7 +158,7 @@ const Teams = () => {
               color="green"
               right={true}
               id={0}
-              data={data.app}
+              data={data.android}
             />
             <Cluster
               name="web"
