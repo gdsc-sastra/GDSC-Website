@@ -8,6 +8,8 @@ import loader from "../../loader.gif";
 import styled from "styled-components";
 import data2022 from './Cluster_2022.json'
 import axios from "axios";
+import git from "../Logos/github.svg";
+import linkedin from "../Logos/linkedin.svg";
 
 function getRandomNumber() {
   return parseInt(1 + Math.random() * 99);
@@ -117,11 +119,19 @@ const Teams = () => {
           </a>
         </main>
         <main id="main-team">
-          <section className="lead">
-            <div>
-              <img src={require(`${data.lead.imgUrl}`)} style={{ width: "170px" }} />
+        <section className="lead">
+            <div className="lead-container">
+              <img className="lead-img" src={require(`${data.lead.imgUrl}`)} style={{ width: "170px" }} />
               <h3>{data.lead.name}</h3>
               <p>{data.lead.role}</p>
+              <div className="social">
+                <a href={data.lead.github} target="_blank">
+                  <img src={git} />
+                </a>
+                <a href={data.lead.linkedin} target="_blank">
+                  <img src={linkedin} />
+                </a>
+              </div>
             </div>
           </section>
           <div className="batch-button">
