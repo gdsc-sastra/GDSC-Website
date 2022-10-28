@@ -41,8 +41,8 @@ function Terminal() {
                 {/* <Link to="/">ar / vr</Link> */}
                 <Link to="/teams">digital creations</Link>
                 <Link to="/teams">content writing</Link>
-                {/* <Link to="/">marketing</Link>
-                <Link to="/">event coverage</Link> */}
+                <Link to="/teams">promotions & marketing</Link>
+                {/*<Link to="/">event coverage</Link> */}
               </div>
             </div>
           </div>
