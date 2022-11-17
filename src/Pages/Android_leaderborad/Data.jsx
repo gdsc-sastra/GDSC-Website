@@ -8,6 +8,7 @@ const ROW = styled.tr`
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 35px;
+    color: #636363;
   }
 `;
 let val =0

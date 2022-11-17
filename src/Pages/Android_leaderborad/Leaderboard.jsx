@@ -21,11 +21,12 @@ const CONTAINER = styled.div`
   }
 `;
 const TABLE = styled.table`
-  width: 90%;
+  width: 87%;
   margin: auto ;
   padding-bottom: 10px;
-  border-radius: 14px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
+  box-shadow: -1px 0px 30px 1px rgba(199,197,199,0.23);
   border-collapse: collapse;
   @media (max-width: 768px) {
     th{
@@ -50,15 +51,15 @@ const TABLE = styled.table`
     border-bottom: none;
   }
   th:nth-of-type(1){
-    width: 28%;
-    border-radius: 14px 0 0 0;
+    width: 24%;
+    border-radius: 15px 0 0 0;
   }
   th:nth-of-type(3){
-    border-radius: 0 14px 0 0;
+    border-radius: 0 15px 0 0;
   }
   tr:last-child td{
-    border-bottom-left-radius: 14px;
-    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
   tr:nth-child(2) td{
     color: #3DDB84;
