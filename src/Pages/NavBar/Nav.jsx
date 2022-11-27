@@ -66,7 +66,7 @@ const Nav = () => {
                 )}
               </Link>
             </Links> */}
-            <Links>
+            {/* <Links>
               <Link to="/resources">
                 {location.pathname == "/resources" ? (
                   <span className="underline">Resources</span>
@@ -74,7 +74,7 @@ const Nav = () => {
                   <span className="no-underline">Resources</span>
                 )}
               </Link>
-            </Links>
+            </Links> */}
             <Links>
               <Link to="/about">
                 {location.pathname == "/about" ? (
