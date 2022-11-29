@@ -1,0 +1,209 @@
+[
+  {
+    "id": "5f2e71568bece50017692292",
+    "name": "Nodeschool.io",
+    "description": "Open source workshops that teach web software skills. Do them on your own or at a workshop nearby.",
+    "resource_url": "https://nodeschool.io/",
+    "image_url": "https://i.postimg.cc/mg0JwccK/node-io.png",
+    "createdAt": "2020-08-08T09:33:10.440Z",
+    "updatedAt": "2020-08-08T09:33:10.440Z"
+  },
+  {
+    "id": "5f2e70e78bece50017692291",
+    "name": "Design Course",
+    "description": "They teach full stack development! Which means you will see tutorials regarding UI/UX, Frontend Dev, Backend Dev, Graphic Design and more!",
+    "resource_url": "https://www.youtube.com/user/DesignCourse",
+    "image_url": "https://i.postimg.cc/SQZB0pP6/kaleidico-26-MJGn-CM0-Wc-unsplash.jpg",
+    "createdAt": "2020-08-08T09:31:19.814Z",
+    "updatedAt": "2020-08-08T09:31:19.814Z"
+  },
+  {
+    "id": "5f2e70788bece50017692290",
+    "name": "w3schools",
+    "description": "W3Schools is an educational website for learning web technologies online. Content includes tutorials and references relating to HTML, CSS, JavaScript, JSON, PHP, Python, AngularJS, React.js, SQL, Bootstrap, Sass, Node.js, jQuery, XQuery, AJAX, XML, Raspberry Pi, C++, and Java.",
+    "resource_url": "https://www.w3schools.com/",
+    "image_url": "https://i.postimg.cc/mr9DXFm9/W3-Schools-logo1.png",
+    "createdAt": "2020-08-08T09:29:28.183Z",
+    "updatedAt": "2020-08-08T09:29:28.183Z"
+  },
+  {
+    "id": "5f2e70118bece5001769228f",
+    "name": "Mozilla Developer Network",
+    "description": "Official developer network of Mozilla Team.",
+    "resource_url": "https://developer.mozilla.org/en-US/",
+    "image_url": "https://i.postimg.cc/cLgbYgXC/mdn.jpg",
+    "createdAt": "2020-08-08T09:27:45.358Z",
+    "updatedAt": "2020-08-08T09:27:45.358Z"
+  },
+  {
+    "id": "5f2e6fc88bece5001769228e",
+    "name": "Codecademy",
+    "description": "From building websites to analyzing data, the choice is yours. Not sure where to start? We'll point you in the right direction.",
+    "resource_url": "https://www.codecademy.com/",
+    "image_url": "https://i.postimg.cc/9XkP9xSP/codecademy-logo.png",
+    "createdAt": "2020-08-08T09:26:32.463Z",
+    "updatedAt": "2020-08-08T09:26:32.463Z"
+  },
+  {
+    "id": "5f2e6f758bece5001769228d",
+    "name": "Microsoft Virtual Academy",
+    "description": "Whether you're just starting or an experienced professional, our hands-on approach helps you arrive at your goals faster, with more confidence and at your own pace.",
+    "resource_url": "https://docs.microsoft.com/en-us/learn/",
+    "image_url": "https://i.postimg.cc/L8t0NKFF/mva.png",
+    "createdAt": "2020-08-08T09:25:09.093Z",
+    "updatedAt": "2020-08-08T09:25:09.093Z"
+  },
+  {
+    "id": "5f2e6f1c8bece5001769228c",
+    "name": "Web.dev",
+    "description": "Get the web's modern capabilities on your own sites and apps with useful guidance and analysis from web.dev.",
+    "resource_url": "https://web.dev/",
+    "image_url": "https://i.postimg.cc/kG631173/ezgifcom-gif-maker.png",
+    "createdAt": "2020-08-08T09:23:40.045Z",
+    "updatedAt": "2020-08-08T09:23:40.045Z"
+  },
+  {
+    "id": "5f2e6ec68bece5001769228b",
+    "name": "Free Code Camp",
+    "description": "We're an open source community of busy people who learn to code and build projects for nonprofits.",
+    "resource_url": "https://www.freecodecamp.org/",
+    "image_url": "https://i.postimg.cc/65tPbJp5/free-code-camp.png",
+    "createdAt": "2020-08-08T09:22:14.562Z",
+    "updatedAt": "2020-08-08T09:22:14.562Z"
+  },
+  {
+    "id": "5f2e6e398bece5001769228a",
+    "name": "IBM Developer",
+    "description": "Whatever your experience level, IBM Developer provides the best in open source tech, learning resources, and local meet-ups with our expert Developer Advocates.",
+    "resource_url": "https://www.youtube.com/user/developerworks/playlists",
+    "image_url": "https://i.postimg.cc/C1jBXN7t/ibm-deve.jpg",
+    "createdAt": "2020-08-08T09:19:53.956Z",
+    "updatedAt": "2020-08-08T09:19:53.956Z"
+  },
+  {
+    "id": "5f2e6de78bece50017692289",
+    "name": "Android Kotlin Fundamentals Course",
+    "description": "The Android Kotlin Fundamentals course was created by the Google Developers Training team. In the course, you learn Android Kotlin programming concepts and build a variety of apps.",
+    "resource_url": "https://codelabs.developers.google.com/android-kotlin-fundamentals/",
+    "image_url": "https://i.postimg.cc/NMrht13s/images.png",
+    "createdAt": "2020-08-08T09:18:31.022Z",
+    "updatedAt": "2020-08-08T09:18:31.022Z"
+  },
+  {
+    "id": "5f2e6d408bece50017692288",
+    "name": "Android Developer Fundamentals",
+    "description": "In the Android Developer Fundamentals course, you learn basic Android programming concepts and build a variety of apps, using the Java programming language. You start with Hello World and work your way up to apps that schedule jobs, update settings, and use Android Architecture Components.",
+    "resource_url": "https://developer.android.com/courses/fundamentals-training/overview-v2",
+    "image_url": "https://i.postimg.cc/8ztgmkdS/androiddeveloperfundamentals-logo.png",
+    "createdAt": "2020-08-08T09:15:44.534Z",
+    "updatedAt": "2020-08-08T09:15:44.534Z"
+  },
+  {
+    "id": "5f2e6c988bece50017692287",
+    "name": "Web",
+    "description": "Stay up to date on new web platform features, changes to Chrome and more.",
+    "resource_url": "https://developers.google.com/web",
+    "image_url": "https://i.postimg.cc/15gZr1Cn/web-Background.jpg",
+    "createdAt": "2020-08-08T09:12:56.893Z",
+    "updatedAt": "2020-08-08T09:12:56.893Z"
+  },
+  {
+    "id": "5f2e6c488bece50017692286",
+    "name": "Tensorflow",
+    "description": "The core open source library to help you develop and train ML models. Get started quickly by running Colab notebooks directly in your browser.",
+    "resource_url": "https://www.tensorflow.org/",
+    "image_url": "https://i.postimg.cc/0QpPPXLY/TF-Full-Color-Horizontal.png",
+    "createdAt": "2020-08-08T09:11:36.960Z",
+    "updatedAt": "2020-08-08T09:11:36.960Z"
+  },
+  {
+    "id": "5f2e6bec8bece50017692285",
+    "name": "Google Assistant",
+    "description": "Help users get things done by integrating your content and services with the Google Assistant.",
+    "resource_url": "https://developers.google.com/assistant",
+    "image_url": "https://i.postimg.cc/SR1kNyZq/aog-hero-01-720.png",
+    "createdAt": "2020-08-08T09:10:04.075Z",
+    "updatedAt": "2020-08-08T09:10:04.075Z"
+  },
+  {
+    "id": "5f2e6b788bece50017692284",
+    "name": "Flutter",
+    "description": "Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
+    "resource_url": "https://flutter.dev/",
+    "image_url": "https://i.postimg.cc/1z869tJR/flutter-Background.png",
+    "createdAt": "2020-08-08T09:08:08.183Z",
+    "updatedAt": "2020-08-08T09:08:08.183Z"
+  },
+  {
+    "id": "5f2e6b268bece50017692283",
+    "name": "Google Developers",
+    "description": "Find out all the updates about Google's Product, Events and Developer Communities.",
+    "resource_url": "https://developers.google.com/",
+    "image_url": "https://i.postimg.cc/cLv5Gg3Z/Webp-net-resizeimage.png",
+    "createdAt": "2020-08-08T09:06:46.830Z",
+    "updatedAt": "2020-08-08T09:06:46.830Z"
+  },
+  {
+    "id": "5f2e6ac28bece50017692282",
+    "name": "Udacity",
+    "description": "Learn the latest tech skills to propel your career forward! We provide both free and paid online courses of the cutting edge technologies with the leading industries. With our growing catalog of over 30 Nanodegree programs from beginner to advanced, you're sure to find one that fits your career goals.",
+    "resource_url": "https://www.udacity.com/",
+    "image_url": "https://i.postimg.cc/15Y3yKT6/Udacity-white.png",
+    "createdAt": "2020-08-08T09:05:06.084Z",
+    "updatedAt": "2020-08-08T09:05:06.084Z"
+  },
+  {
+    "id": "5f2e6a6a8bece50017692281",
+    "name": "Quicklabs",
+    "description": "Qwiklabs provides real cloud environments that help developers and IT professionals learn cloud platforms and software, such as Firebase, Kubernetes etc.",
+    "resource_url": "https://www.qwiklabs.com/",
+    "image_url": "https://i.postimg.cc/7Z6JVhv1/quciklab.jpg",
+    "createdAt": "2020-08-08T09:03:38.910Z",
+    "updatedAt": "2020-08-08T09:03:38.910Z"
+  },
+  {
+    "id": "5f2e69fc8bece50017692280",
+    "name": "Google Could Platform",
+    "description": "Google Cloud Platform lets you build, deploy, and scale applications, websites, and services on the same infrastructure as Google. Helping you build what's next with secure infrastructure, developer tools, APIs, data analytics and machine learning.",
+    "resource_url": "https://cloud.google.com/",
+    "image_url": "https://i.postimg.cc/tCnbyHHd/google-cloud.jpg",
+    "createdAt": "2020-08-08T09:01:48.784Z",
+    "updatedAt": "2020-08-08T09:01:48.784Z"
+  },
+  {
+    "id": "5f2e69628bece5001769227f",
+    "name": "Firebase",
+    "description": "Firebase is Google's mobile platform that helps you quickly develop high-quality apps and grow your business. It gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.Firebase is built on Google infrastructure and scales automatically, for even the largest apps.",
+    "resource_url": "https://firebase.google.com/",
+    "image_url": "https://i.postimg.cc/fbSK8B4v/firebase-head-750x354.png",
+    "createdAt": "2020-08-08T08:59:14.554Z",
+    "updatedAt": "2020-08-08T08:59:14.554Z"
+  },
+  {
+    "id": "5f2e68ea8bece5001769227e",
+    "name": "Google Design",
+    "description": "A directory of essential design tools and resources to keep your projects moving forward.",
+    "resource_url": "https://design.google/resources/",
+    "image_url": "https://i.postimg.cc/6ptNZjPF/google-design.png",
+    "createdAt": "2020-08-08T08:57:14.333Z",
+    "updatedAt": "2020-08-08T08:57:14.333Z"
+  },
+  {
+    "id": "5f2e685c8bece5001769227d",
+    "name": "Tech Dev Guide",
+    "description": "We’ve carefully curated a collection of material from many sources, including Google, that you can use to supplement your classwork or direct your own learning.",
+    "resource_url": "https://techdevguide.withgoogle.com/",
+    "image_url": "https://i.postimg.cc/1X09y7Nx/tech-dev-guide.png",
+    "createdAt": "2020-08-08T08:54:52.887Z",
+    "updatedAt": "2020-08-08T08:54:52.887Z"
+  },
+  {
+    "id": "5f2e66018bece5001769227c",
+    "name": "Codelabs",
+    "description": "Google Developers Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs will step you through the process of building a small application, or adding a new feature to an existing application. They cover a wide range of topics such as Android Wear, Google Compute Engine, Project Tango, and Google APIs on iOS.",
+    "resource_url": "https://codelabs.developers.google.com/",
+    "image_url": "https://i.postimg.cc/vB1yBRVd/codelab.png",
+    "createdAt": "2020-08-08T08:44:49.555Z",
+    "updatedAt": "2020-08-08T08:44:49.555Z"
+  }
+]

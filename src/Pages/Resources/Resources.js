@@ -3,6 +3,7 @@ import loader from "../../loader.gif";
 import Modal from "./Modal";
 import styled from "styled-components";
 import "./Resources.css";
+import resourcedata from "./resources-data.json";
 
 /******************** Constants ********************/
 const MAX_DESCRIPTION_LENGTH = 120;
@@ -45,8 +46,9 @@ export default function Resources() {
   useEffect(() => {
     getResourcesFromServer();
     async function getResourcesFromServer() {
-      const data = await fetch("https://dscsastraapi.herokuapp.com/resources");
-      const resources = await data.json();
+      // const data = await fetch("https://dscsastraapi.herokuapp.com/resources");
+      // const resources = await data.json();
+      const resources = resourcedata;
       console.log(resources);
       setResources(resources);
       setFilteredResources(resources);
